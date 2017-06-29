@@ -1,0 +1,17 @@
+<?php
+
+namespace Modules\{{studly_module}};
+
+use AP\Support\ModulesServiceProvider as Base;
+
+class {{studly_name}}ServiceProvider extends Base
+{
+	public function register()
+	{
+		parent::register('{{lower_name}}');
+	}
+	public function boot()
+	{
+		parent::boot('{{lower_name}}');
+	}
+}

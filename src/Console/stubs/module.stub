@@ -1,0 +1,37 @@
+{
+    "name": "{{lower_name}}",
+    "enabled": {{enabled}},
+    "order": {{order}},
+    "description": "{{studly_name}} package by {{studly_author}} for laravel",
+    "keywords": ["laravel", "{{lower_author}}", "{{lower_name}}"],
+	"homepage": "{{homepage}}",
+	"support": {
+		"email": "{{lower_author}}@{{site}}",
+		"issues": "{{homepage}}/issues/packages/laravel/{{lower_author}}/{{lower_name}}/",
+		"forum": "{{homepage}}/forum/packages/laravel/{{lower_author}}/{{lower_name}}/",
+		"wiki": "{{homepage}}/wiki/packages/laravel/{{lower_author}}/{{lower_name}}/",
+		"source": "{{homepage}}/source/packages/laravel/{{lower_author}}/{{lower_name}}.zip",
+		"docs": "{{homepage}}/docs/pacakages/laravel/{{lower_author}}/{{lower_name}}/"
+	},
+	"version": "0.0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "{{studly_author}}",
+            "email": "{{lower_author}}@{{site}}"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "laravel/framework": "5.2.*",
+		"anutiger/support": "*"
+    },
+    "providers": [],
+    "providers-dev": [],
+    "aliases": {
+        "{{studly_name}}": "Modules\\{{studly_name}}\\{{studly_name}}Facade"
+    },
+    "autoload": [
+        "src/Http/routes.php"
+    ]
+}

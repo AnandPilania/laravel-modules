@@ -1,0 +1,13 @@
+<?php
+
+namespace Modules\{{studly_module}};
+
+use AP\Support\Model as Base;
+
+class {{studly_name}}Model extends Base
+{
+	protected $table = '{{lower_plural_name}}';
+	protected $fillable = [];
+	protected $hidden = [];
+	protected $casts = [];
+}

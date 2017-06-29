@@ -1,0 +1,8 @@
+<?php
+
+namespace Modules\{{studly_module}}\Http\Controllers;
+
+use AP\Support\Controller as Base;
+
+class {{studly_name}}Controller extends Base
+{}

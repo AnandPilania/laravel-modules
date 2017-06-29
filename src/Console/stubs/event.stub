@@ -1,0 +1,8 @@
+<?php
+
+namespace Modules\{{studly_module}}\Events;
+
+use AP\Support\Event as Base;
+
+class {{studly_name}}Event extends Base
+{}

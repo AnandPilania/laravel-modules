@@ -1,0 +1,6 @@
+<?php
+
+namespace Modules\{{studly_module}}\Jobs;
+
+class {{studly_name}}Jobs
+{}

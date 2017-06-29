@@ -1,0 +1,6 @@
+<?php
+
+namespace Modules\{{studly_module}}\Listeners;
+
+class {{studly_name}}Listeners
+{}

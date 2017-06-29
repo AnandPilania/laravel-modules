@@ -1,0 +1,6 @@
+<?php
+
+namespace Modules\{{studly_module}}\Models;
+
+class {{studly_name}}Model
+{}

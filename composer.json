@@ -1,0 +1,31 @@
+{
+    "name": "anandpilania/laravel-modules",
+    "description": "Modules package laravel",
+    "keywords": ["laravel", "anandpilania", "modules"],
+	"homepage": "https://github.com/anandpilania/laravel-modules",
+	"support": {
+		"email": "pilaniaanand@gmail.com",
+		"issues": "https://github.com/pilaniaanand/laravel-modules/issues",
+		"wiki": "https://github.com/pilaniaanand/laravel-modules/wiki",
+		"source": "https://github.com/pilaniaanand/laravel-modules/archive/master.zip",
+		"docs": "https://github.com/pilaniaanand/laravel-modules/"
+	},
+	"version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anand Pilania",
+            "email": "pilaniaanand@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "anandpilania/laravel-support": "self.version"
+    },
+	"autoload": {
+		"psr-4": {
+			"AP\\Modules\\": "src/"
+		}
+	},
+	"suggests": {}
+}

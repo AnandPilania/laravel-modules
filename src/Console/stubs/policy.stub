@@ -1,0 +1,8 @@
+<?php
+
+namespace Modules\{{studly_module}}\Policies;
+
+use AP\Support\Policy;
+
+class {{studly_name}}Policy extends Policy
+{}
